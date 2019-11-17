@@ -1,1 +1,1 @@
-# js_study
+# my_project
