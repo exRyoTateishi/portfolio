@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Ryo Tateishi Portfolio site</title>
+    <link rel="stylesheet" href="../hp.css">
+</head>
+<body>
+    <header>
+        <div class="pro-text absolute">
+            <span>Ryo Tateishi/Student</span>
+        </div>
+        <div class="copyright absolute">
+            <small>copyright © tateishi all rights reserved.</small>
+        </div>
+    </header>
+    <section class="contact-form relative m-auto">
+        <h2 class="sub_title center_text">Contact</h2>
+        <!-- フォーム送信の設定をして欲しい -->
+        <!-- <form class="formrun" action="#" method="POST" target="_top"> -->
+        <div class="form_container">
+            <label class="form_label" for="">名前</label>
+            <input class="form_input" id="name" placeholder="お名前" type="text">
+        </div>
+        <div class="form_container">
+            <label class="form_label" for="">Email</label>
+            <input class="form_input" id="email" placeholder="メールアドレス" type="text">
+        </div>
+        <div class="form_container">
+            <label class="form_label" for="">Tell</label>
+            <input class="form_input" id="phone" placeholder="電話番号" type="text">
+        </div>
+        <div class="textarea_container">
+            <label class="form_label" for="">DESCRIPTION</label>
+            <textarea class="form_textarea" id="message" cols="30" name="お問い合わせ内容" placeholder="お問い合わせ内容"></textarea>
+        </div>
+        <div class="formrun">
+            <input type="submit" id="form_subm" value="送信">
+        </div>
+    </section>
+</body>
+</html>
