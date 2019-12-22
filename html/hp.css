@@ -171,12 +171,20 @@ input,
 select {
     vertical-align: middle;
 }
+a{
+    text-decoration: none;
+}
 
 /* hp.html */
 .header-profile{
     padding-top: 200px;
     text-align: center;
     padding-bottom: 20px;
+}
+.header-contact{
+    margin-top: 80px;
+    margin-left: 70%;
+    width: 20%;
 }
 .header{
     padding-top: 80px;
@@ -200,11 +208,12 @@ div a{
 .logo{
     width: 20%;
     border: double black 8px;
-    margin-right: 5%;
+    margin-left: 5%;
     font-size: 70px;
     font-weight: 900;
-    letter-spacing: 0.15;
+    letter-spacing: 0.3;
     font-family: 'Barlow',sans-serif;
+    padding-right: 1px;
 }
 .social{
     padding-top: 10px;
@@ -219,6 +228,10 @@ div a{
     padding-left: 5%;
     justify-content: flex-start;
     align-items: center;
+}
+.menu_bar > ul{
+    border: solid black 1px;
+    padding: 5px;
 }
 .menu-text{
     color: #000;
@@ -275,18 +288,14 @@ li{
     align-items: center;
 }
 .contact-inner{
-    margin-top: 80px;
-    margin-bottom: 100px;
     background-color: black;
-    padding: 80px;
-    width: 50%;
+    padding: 25px;
 }
 .contact-text{
     font-size:25px;
     letter-spacing: 0.04em;
     font-weight: 100;
     color: white;
-    align-items: center;
     text-decoration: none;
 }
 .footer{
@@ -302,6 +311,9 @@ li{
     text-decoration: none;
     text-align: right
 }
+.footer-link{
+    color: white;
+}
 
 
 /* contact.html */
@@ -311,7 +323,7 @@ li{
     color: #666666;
     font-weight: 200;
     left: 0;
-    top: 300px;
+    top: 400px;
     padding-left: 2px;
 }
 .sub_title{
