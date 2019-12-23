@@ -216,8 +216,16 @@ div a{
     padding-right: 1px;
 }
 .social{
+    top: 620px;
+    left: 94%;
     padding-top: 10px;
-    padding-left: 10%;
+}
+.social-text{
+    writing-mode: vertical-lr;
+    padding-left: 6.5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
 }
 .Btn-icon{
     padding-left: 4px;
@@ -283,6 +291,10 @@ li{
 .socialBtn{
     top: 112px;
     right: 10px;
+    flex-flow: column;
+}
+.socialBtn > li{
+    padding-top: 7px;
 }
 .about_data{
     align-items: center;
@@ -323,7 +335,7 @@ li{
     color: #666666;
     font-weight: 200;
     left: 0;
-    top: 400px;
+    top: 500px;
     padding-left: 2px;
 }
 .sub_title{
